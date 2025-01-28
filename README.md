@@ -23,7 +23,8 @@ primele căsuțe din tabel.
 o După completarea acestuia, veți adăuga restul literelor din alfabet, excluzând o 
 literă la alegere pentru a se potrivi într-un tabel 5x5 (sunt 26 de caractere în 
 alfabet). 
-Exemplu pentru MIHAI și litera “J” 
+Exemplu pentru MIHAI și litera “J”
+ 
 |   | 1 | 2 | 3 | 4 | 5 |
 |---|---|---|---|---|---|
 | 1 | M | I | H | A | B |
@@ -38,7 +39,8 @@ o Fiecare literă din mesajul de criptat va fi căutată în tabelul personaliza
 pentru a-i obține valoarea.  
 o Se însumează cu valoarea corespunzătoare din cuvântul secret (repetându-l până 
 la lungimea textului). 
-Exemplu pentru secretul „DAN” textul clar „ISMASE” 
+Exemplu pentru secretul „DAN” textul clar „ISMASE”
+ 
 | I  | S  | M  | A  | S  | E  |
 |----|----|----|----|----|----|
 | 12 | 42 | 11 | 14 | 42 | 23 |
