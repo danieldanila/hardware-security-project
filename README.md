@@ -24,12 +24,13 @@ o După completarea acestuia, veți adăuga restul literelor din alfabet, excluz
 literă la alegere pentru a se potrivi într-un tabel 5x5 (sunt 26 de caractere în 
 alfabet). 
 Exemplu pentru MIHAI și litera “J” 
-  1 2 3 4 5
-1 M I H A B 
-2 C D E F G  
-3 K L N O P 
-4 Q R S T U   
-5 V W X Y Z
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| 1 | M | I | H | A | B |
+| 2 | C | D | E | F | G |
+| 3 | K | L | N | O | P |
+| 4 | Q | R | S | T | U |
+| 5 | V | W | X | Y | Z |
    
 3. Algoritmul de criptare: Fiecare student va u liza propriul nume de familie ca secret 
 pentru criptare. 
@@ -38,11 +39,12 @@ pentru a-i obține valoarea.
 o Se însumează cu valoarea corespunzătoare din cuvântul secret (repetându-l până 
 la lungimea textului). 
 Exemplu pentru secretul „DAN” textul clar „ISMASE” 
- I  S  M  A  S  E
-12 42 11 14 42 23
- D  A  N  D  A  N 
-22 14 33 22 14 33 
-34 56 44 36 56 56
+| I  | S  | M  | A  | S  | E  |
+|----|----|----|----|----|----|
+| 12 | 42 | 11 | 14 | 42 | 23 |
+| D  | A  | N  | D  | A  | N  |
+| 22 | 14 | 33 | 22 | 14 | 33 |
+| 34 | 56 | 44 | 36 | 56 | 56 |
 
 4. [2 x 30p] Criptarea și decriptarea: Implementați atât funcționalitatea de criptare, cât și pe 
 cea de decriptare. Trebuie să creați două module separate: unul pentru criptare și unul 
